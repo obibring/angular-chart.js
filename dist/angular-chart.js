@@ -2,7 +2,7 @@
   'use strict';
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['angular', 'chart.js'], factory);
+    define(['angular', 'chart'], factory);
   } else if (typeof exports === 'object') {
     // Node/CommonJS
     module.exports = factory(require('angular'), require('chart.js'));
